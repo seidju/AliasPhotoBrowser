@@ -1,0 +1,6 @@
+framework module Pods_AliasPhotoBrowser {
+  umbrella header "Pods-AliasPhotoBrowser-umbrella.h"
+
+  export *
+  module * { export * }
+}
