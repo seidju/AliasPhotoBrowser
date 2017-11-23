@@ -14,6 +14,7 @@ class OnboardingCoordinator: BaseCoordinator {
     showOnboarding()
   }
   
+  
   fileprivate func showOnboarding() {
     let onboarding = ModuleFabric().createOnboarding()
     onboarding.onboardingModel?.onboardingDidFinish = finishFlow
